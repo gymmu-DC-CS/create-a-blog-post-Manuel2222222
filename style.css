@@ -4,12 +4,13 @@
   box-sizing: content-box;
 }
 
+
 body {
-  margin: 0;
-  background-color: #8ABDFB ;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-align: center;
+  background: lightgrey;
+  font-family: Serif	Times New Roman;
+  color:black;
 }
+
 
 
 
