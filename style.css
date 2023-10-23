@@ -1,18 +1,44 @@
 *,
 *::before,
 *::after {
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
-
+/* Grey background */
 
 body {
   background: lightgrey;
   font-family: Serif	Times New Roman;
   color:black;
+  padding: 25px;
+}
+
+.h1{
+  padding: 25px;
+  font-size: 40px;
+  background-image: url("new\ york\ flag.jpg");
+  text-align: center;
+  margin: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.t1{
+  padding: 25px;
+  background-color: white;
+  margin: 20px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+.t2{
+  padding: 25px;
+  background-color: white;
+  margin: 20px;
 }
 
 
 
 
 
-/* Comment/
+
