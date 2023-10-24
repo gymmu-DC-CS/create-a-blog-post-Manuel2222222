@@ -6,7 +6,7 @@
 /* grey background */
 
 body {
-  background-color: grey;
+  background-color: lightgrey;
   font-family: Serif	Times New Roman;
   color:black;
   padding: 25px;
@@ -33,6 +33,10 @@ body {
 h2{
   font-size: 30px;
   text-align: center;
+}
+
+h3{
+  font-size: 15px;
 }
 
 .t2{
