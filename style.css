@@ -3,10 +3,10 @@
 *::after {
   box-sizing: border-box;
 }
-/* blue background */
+/* grey background */
 
 body {
-  background-color: lightgreen;
+  background-color: grey;
   font-family: Serif	Times New Roman;
   color:black;
   padding: 25px;
@@ -15,7 +15,8 @@ body {
 .T1{
   padding: 25px;
   font-size: 40px;
-  background-image: url("new\ york\ flag.jpg");
+  color: white;
+  background-image: url("background2.jpg");
   text-align: center;
   margin: 30px;
   font-family: 'Times New Roman', Times, serif;
@@ -31,9 +32,17 @@ body {
 
 h2{
   font-size: 30px;
+  text-align: center;
 }
 
 .t2{
+  padding: 25px;
+  background-color: white;
+  margin: 30px;
+  border-style: double;
+}
+
+.t3{
   padding: 25px;
   background-color: white;
   margin: 30px;
