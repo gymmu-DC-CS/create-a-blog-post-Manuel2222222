@@ -3,28 +3,30 @@
 *::after {
   box-sizing: border-box;
 }
-/* Grey background */
+/* blue background */
 
 body {
-  background: lightgrey;
+  background-color: lightgreen;
   font-family: Serif	Times New Roman;
   color:black;
   padding: 25px;
 }
 
-.h1{
+.T1{
   padding: 25px;
   font-size: 40px;
   background-image: url("new\ york\ flag.jpg");
   text-align: center;
-  margin: 20px;
+  margin: 30px;
   font-family: 'Times New Roman', Times, serif;
+  border-style: double;
 }
 
 .t1{
   padding: 25px;
   background-color: white;
-  margin: 20px;
+  margin: 30px;
+  border-style: double;
 }
 
 h2{
@@ -34,7 +36,8 @@ h2{
 .t2{
   padding: 25px;
   background-color: white;
-  margin: 20px;
+  margin: 30px;
+  border-style: double;
 }
 
 
