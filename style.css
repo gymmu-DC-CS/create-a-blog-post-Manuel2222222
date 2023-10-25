@@ -12,21 +12,28 @@ body {
   padding: 25px;
 }
 
-.T1{
+.top1{
   padding: 25px;
   font-size: 40px;
   color: white;
   background-image: url("background2.jpg");
   text-align: center;
-  margin: 30px;
+  margin: 25px;
   font-family: 'Times New Roman', Times, serif;
   border-style: double;
 }
 
-.t1{
+.paper1{
   padding: 25px;
   background-color: white;
-  margin: 30px;
+  margin: 25px;
+  border-style: double;
+}
+
+.paper2{
+  padding: 25px;
+  background-color: white;
+  margin-top: 25px;
   border-style: double;
 }
 
@@ -35,26 +42,35 @@ h2{
   text-align: center;
 }
 
-h3{
+p{
   font-size: 15px;
 }
 
-.t2{
-  padding: 25px;
-  background-color: white;
-  margin: 30px;
-  border-style: double;
+.leftpart{
+  width: 75%;
+  float: left;
 }
 
-.t3{
-  padding: 25px;
-  background-color: white;
-  margin: 30px;
-  border-style: double;
+.rightpart{
+  width: 25%;
+  float: left;
 }
 
+a:link {
+  color: blue;
+}
 
+a:visited {
+  color: blue;
+}
 
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: darkviolet;
+}
 
 
 
