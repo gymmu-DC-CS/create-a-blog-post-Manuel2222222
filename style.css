@@ -43,7 +43,7 @@ h2{
 }
 
 p{
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .leftpart{
@@ -56,6 +56,12 @@ p{
   float: left;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 a:link {
   color: blue;
 }
@@ -65,12 +71,13 @@ a:visited {
 }
 
 a:hover {
-  color: green;
+  color: red;
 }
 
 a:active {
-  color: darkviolet;
+  color: green;
 }
+
 
 
 
