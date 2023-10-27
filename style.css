@@ -12,6 +12,8 @@ body {
   padding: 25px;
 }
 
+/* A picture of New York as a background with a double border*/
+
 .top1{
   padding: 25px;
   font-size: 40px;
@@ -23,6 +25,8 @@ body {
   border-style: double;
 }
 
+/*A white background with a double border*/
+
 .paper1{
   padding: 25px;
   background-color: white;
@@ -30,12 +34,15 @@ body {
   border-style: double;
 }
 
+/*A second one for the right part*/
+
 .paper2{
   padding: 25px;
   background-color: white;
   margin-top: 25px;
   border-style: double;
 }
+
 
 h2{
   font-size: 30px;
@@ -46,15 +53,29 @@ p{
   font-size: 17px;
 }
 
+/*The left part of the blog post, which fills 73% of it*/
+
 .leftpart{
-  width: 75%;
+  width: 73%;
   float: left;
 }
+
+/*The right part, which fills 25%*/
 
 .rightpart{
   width: 25%;
   float: left;
 }
+
+/*The end of the Blog post*/
+
+.end{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+/*How the link changes the colors when clicked, when visited,...*/
 
 a:link {
   color: blue;
@@ -72,11 +93,12 @@ a:active {
   color: green;
 }
 
+/*A code from w3scools, for the transition of the pictures*/
+
 .container {
   position: relative;
   width: 75%;
 }
-
 
 .image {
   opacity: 1;
@@ -93,7 +115,7 @@ a:active {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(30%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -106,16 +128,15 @@ a:active {
   opacity: 1;
 }
 
-
-.text {
+.text{
+  color: black;
   background-color: white;
-  color: #000000;
   font-size: 13px;
   padding: 13px 26px;
 }
 
 
-
+/*A second one for the next pciture*/
 
 
 .container1 {
@@ -161,45 +182,49 @@ a:active {
 }
 
 
-
-
+/*A third one for the last picture */
 
 
 .container2 {
   position: relative;
-  width: 100%;
+  width: 75%;
 }
+
 
 .image2 {
+  opacity: 1;
   display: block;
-  height: auto;
-}
-
-.overlay2 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
   width: 100%;
-  opacity: 0;
+  height: 100%;
   transition: .5s ease;
-  background-image: url(after\ amnimation.jpg);
+  backface-visibility: hidden;
 }
 
-.container2:hover .overlay2 {
+.middle2 {
+  transition: .5s ease;
   opacity: 0;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
+  transform: translate(25%, 325%);
   -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.container2:hover .image2 {
+  opacity: 0.5;
+}
+
+.container2:hover .middle2 {
+  opacity: 1;
+}
+
+.text2{
+  color: black;
+  background-color: white;
+  font-size: 13px;
+  padding: 13px 26px;
+}
+
+
+
